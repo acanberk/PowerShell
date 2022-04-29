@@ -1,8 +1,8 @@
 <#
 .SYNOPSIS
-	Get the time of last successful Veeam backup.
+    Get the time of last successful Veeam backup.
 .DESCRIPTION
-	The Get-LastVeeamBackup function gives you the time of last successful Veeam Backup.
+    The Get-LastVeeamBackup function gives you the time of last successful Veeam Backup.
     Valid parameters are: hostname or "HostList.txt"
     If no parameter given, script will query localhost.
     Script must be run with priviliges on remote computers.
