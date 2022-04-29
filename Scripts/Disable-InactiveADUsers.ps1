@@ -2,7 +2,7 @@
 .SYNOPSIS
     Disable Inactive Active Directory Users.
 .DESCRIPTION
-    The Disable-InactiveADUsers script lists and disable Active Directory users who have not logged on last 180 days.
+    The Disable-InactiveADUsers script lists and disables Active Directory users who have not logged on last 180 days.
 .EXAMPLE
     PS> ./Disable-InactiveADUsers.ps1
     John Freeman 		 Inactive since: 10/21/2021 13:44:10
