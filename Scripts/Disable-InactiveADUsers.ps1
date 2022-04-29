@@ -21,7 +21,6 @@ $users = Get-ADUser -Filter {((Enabled -eq $true) -and (LastLogonDate -lt $date)
 
 $user = $null
 Foreach($user in $users){
-
    $strNewDescription = "Inactive since: " + $user.LastLogonDate
    Write-Host $user.name `t`t $strNewDescription
    Set-ADUser $user.SamAccountName -Description $strNewDescription
