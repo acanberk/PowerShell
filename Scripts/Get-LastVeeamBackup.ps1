@@ -7,21 +7,21 @@
     If no parameter given, script will query localhost.
     Script must be run with priviliges on remote computers.
 .PARAMETER hostname
-	Specifies the computer name to query.
+    Specifies the computer name to query.
 .EXAMPLE
-	PS> ./Get-LastVeeamBackup APPSRV1
-	Last successful Veeam backup on APPSRV1 was at 28.04.2022 20:06:17
+    PS> ./Get-LastVeeamBackup APPSRV1
+    Last successful Veeam backup on APPSRV1 was at 28.04.2022 20:06:17
 .PARAMETER HostList.txt
-	Specifies the computer name list to query. (parameter must be exactly "HostList.txt")
+    Specifies the computer name list to query. (parameter must be exactly "HostList.txt")
 .EXAMPLE
-	PS> ./Get-LastVeeamBackup hostlist.txt
-	Last successful Veeam backup on APPSRV1 was at 28.04.2022 20:06:17
+    PS> ./Get-LastVeeamBackup hostlist.txt
+    Last successful Veeam backup on APPSRV1 was at 28.04.2022 20:06:17
     Last successful Veeam backup on APPSRV2 was at 28.04.2022 18:42:34
     Last successful Veeam backup on SQLSRV was at 29.04.2022 00:33:48
 .LINK
-	https://github.com/acanberk/PowerShell
+    https://github.com/acanberk/PowerShell
 .NOTES
-	Author: Atıf Canberk Ezan
+    Author: Atıf Canberk Ezan
     Date: 2022/04/29
 #>
 
