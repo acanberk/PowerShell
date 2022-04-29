@@ -26,7 +26,7 @@
 #>
 
 $computerList = $null
-if($args[0]){
+if($args){
     if($args[0] -eq "HostList.txt"){
         $computerList = Get-Content $args[0]
     }
